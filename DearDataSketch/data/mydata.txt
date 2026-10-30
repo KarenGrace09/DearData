@@ -1,10 +1,73 @@
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+Number,Time,Category,Effort,Worry
+1,18:00,Checking,2,3
+2,10:00,Food refusal,3,2
+3,10:00,Social communication,3,2
+4,11:15,Food refusal,3,2
+5,11:15,Social communication,3,3
+6,13:00,Medicine,1,3
+7,13:00,Planning for food safety,1,2
+8,11:15,Medicine,1,2
+9,10:30,Planning for food safety,1,1
+10,08:00,Medicine,1,1
+11,08:00,Planning for food safety,1,1
+12,12:16,Avoiding food,2,3
+13,12:16,Social communication,2,3
+14,07:00,Medicine,2,1
+15,08:30,Planning for food safety,2,1
+16,08:30,Uncertainty,3,4
+17,09:00,Reaction,3,4
+18,08:00,Planning for food safety,2,1
+19,08:00,Medicine bag,2,1
+20,12:00,Social communication,2,3
+21,09:00,Medicine,1,1
+22,07:00,Medicine,1,1
+23,07:00,Planning for food safety,1,1
+24,09:00,Food refusal,3,3
+25,07:00,Medicine,1,1
+26,07:00,Planning for food safety,1,1
+27,12:00,Food refusal,3,3
+28,15:00,Social communication,3,2
+29,11:00,Medicine,1,1
+30,09:00,Planning for food safety,1,1
+31,08:00,Planning for food safety,1,1
+32,08:30,Medicine bag,1,1
+33,19:00,Planning for food safety,2,1
+34,19:00,Medicine bag,1,1
+35,22:00,Checking,4,4
+36,22:00,Monitoring,3,4
+37,22:00,Reaction,4,4
+38,18:00,Medicine bag,1,1
+39,08:00,Planning for food safety,2,1
+40,13:00,Avoiding food,3,1
+41,13:00,Social communication,3,1
+42,07:00,Planning for food safety,1,1
+43,07:00,Medicine,1,1
+44,14:00,Social communication,2,1
+45,07:00,Planning for food safety,1,1
+46,07:30,Medicine bag,1,1
+47,10:00,Food refusal,2,1
+48,10:00,Social communication,2,2
+49,08:30,Medicine bag,1,1
+50,08:30,Planning for food safety,1,1
+51,18:00,Medicine bag,1,1
+52,09:00,Medicine bag,1,1
+53,09:00,Planning for food safety,1,1
+54,13:00,Food refusal,1,2
+55,13:30,Social communication,2,2
+56,14:00,Planning for food safety,1,1
+57,07:00,Planning for food safety,1,1
+58,07:00,Medicine bag,1,1
+59,10:00,Social communication,2,2
+60,07:00,Planning for food safety,1,1
+61,07:00,Medicine bag,1,1
+62,18:30,Planning for food safety,1,1
+63,20:00,Social communication,3,1
+64,21:00,Food refusal,3,1
+65,21:00,Social communication,1,1
+66,17:30,Food refusal,3,1
+67,17:30,Planning for food safety,1,1
+68,11:00,Planning for food safety,3,3
+69,11:00,Social communication,3,3
+70,17:00,Social communication,3,2
+71,08:00,Medicine bag,1,1
+72,08:00,Packed food for the day,1,1
