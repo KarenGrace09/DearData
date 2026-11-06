@@ -5,14 +5,14 @@ Number,Category,Effort,Worry
 4,refusing,3,4
 5,social communication,3,3
 6,medicine,1,3
-7, planning for food safety,1,3
+7,planning for food safety,1,3
 8,medicine,1,2
-9,planning for food safety ,1,1
+9,planning for food safety,1,1
 10,medicine,1,1
 11,planning for food safety,1,1
-12,avoiding food,2,3
+12,refusing,2,3
 13,social communication,2,4
-14,medicine ,2,1
+14,medicine,2,1
 15,planning for food safety,2,1
 16,checking,3,4
 17,reaction,3,4
@@ -20,28 +20,28 @@ Number,Category,Effort,Worry
 19,medicine,2,1
 20,social communication,2,4
 21,medicine,1,1
-22,medicine ,1,1
+22,medicine,1,1
 23,planning for food safety,1,1
 24,refusing,3,3
 25,medicine,1,1
 26,planning for food safety,1,1
 27,refusing,3,3
 28,social communication,3,2
-29,medicine ,1,1
+29,medicine,1,1
 30,planning for food safety,1,1
 31,planning for food safety,1,1
-32,medicine bag,1,1
+32,medicine,1,1
 33,planning for food safety,2,1
 34,medicine,1,1
 35,checking,4,4
-36,monitoring ,3,4
+36,checking,3,4
 37,reaction,4,4
 38,medicine,1,1
 39,planning for food safety,2,1
-40,avoiding food,3,2
+40,refusing,3,2
 41,social communication,3,1
-42,planning for food safety ,1,1
-43,medicine ,1,1
+42,planning for food safety,1,1
+43,medicine,1,1
 44,social communication,2,1
 45,planning for food safety,1,1
 46,medicine,1,1
@@ -61,7 +61,7 @@ Number,Category,Effort,Worry
 60,planning for food safety,1,1
 61,medicine,1,1
 62,planning for food safety,1,1
-63,social communicaiton,3,1
+63,social communication,3,1
 64,refusing,3,1
 65,social communication,1,1
 66,refusing,3,1
@@ -70,7 +70,7 @@ Number,Category,Effort,Worry
 69,social communication,3,3
 70,social communication,3,2
 71,medicine,1,1
-72,packed food for the day,1,1
+72,planning for food safety,1,1
 73,refusing,1,1
 74,social communication,2,2
 75,social communication,3,2

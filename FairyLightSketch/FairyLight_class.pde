@@ -1,43 +1,44 @@
 float radius;
 float changeRadius;
 
-class Star {
+class Light {
   int dataObservation;
   String what;
   int effortScale;
   int worryScale;
   PVector coords = new PVector(0,0);
-  PVector size = new PVector(100,20);
-  color starColour;
+  color lightColour;
   
   //constructor
-  Star (int dataNum , String Cat, int eff, int worr){
+  Light (int dataNum , String Cat, int eff, int worr){
     dataObservation = dataNum;
     what = Cat;
     effortScale = eff;
     worryScale = worr;
     
-    radius = map(effortScale, 1, 5, 40, 80);
-    changeRadius = map(worryScale, 1, 5, 10, 30); 
+    radius = map(effortScale, 1, 5, 10, 20);
+    changeRadius = map(worryScale, 1, 5, 5, 20);
+    
     
     if (what.equals("refusing")){
-      starColour = color(247,240,7);
+      lightColour = color(255,247,3,64);
     }else if (what.equals("planning for food safety")){
-      starColour = color(227, 108, 211);
+      lightColour = color(250,3,217,64);
     }else if(what.equals("medicine")){
-      starColour = color(108, 214, 227);
+      lightColour = color(5,228,255,64);
     }else if(what.equals("social communication")){
-      starColour = color(251, 250, 252);
+      lightColour = color(255,255,255,64);
     }else if(what.equals("checking")){
-      starColour = color(232, 193, 152);
+      lightColour = color(252,127,0,64);
     }else if(what.equals("reaction")){
-      starColour = color(247, 129, 90);
+      lightColour = color(255, 60, 0,64);
     }
   }
       
   void draw(){
     stroke(0);
-    fill(starColour);
+    strokeWeight(0.5);
+    fill(lightColour);
     
     float randomJitter = random(-changeRadius, changeRadius);
     circle(coords.x, coords.y, radius + randomJitter);
