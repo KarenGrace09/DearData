@@ -14,7 +14,7 @@ Number,Category,Effort,Worry
 13,social communication,2,4
 14,medicine ,2,1
 15,planning for food safety,2,1
-16,uncertainty,3,4
+16,checking,3,4
 17,reaction,3,4
 18,planning for food safety,2,1
 19,medicine,2,1
