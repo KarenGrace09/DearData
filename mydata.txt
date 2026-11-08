@@ -1,86 +1,100 @@
-Number,Category,Effort,Worry
-1,checking,2,3
-2,refusing,3,4
-3,social communication,3,2
-4,refusing,3,4
-5,social communication,3,3
-6,medicine,1,3
-7,planning for food safety,1,3
-8,medicine,1,2
-9,planning for food safety,1,1
-10,medicine,1,1
-11,planning for food safety,1,1
-12,refusing,2,3
-13,social communication,2,4
-14,medicine,2,1
-15,planning for food safety,2,1
-16,checking,3,4
-17,reaction,3,4
-18,planning for food safety,2,1
-19,medicine,2,1
-20,social communication,2,4
-21,medicine,1,1
-22,medicine,1,1
-23,planning for food safety,1,1
-24,refusing,3,3
-25,medicine,1,1
-26,planning for food safety,1,1
-27,refusing,3,3
-28,social communication,3,2
-29,medicine,1,1
-30,planning for food safety,1,1
-31,planning for food safety,1,1
-32,medicine,1,1
-33,planning for food safety,2,1
-34,medicine,1,1
-35,checking,4,4
-36,checking,3,4
-37,reaction,4,4
-38,medicine,1,1
-39,planning for food safety,2,1
-40,refusing,3,2
-41,social communication,3,1
-42,planning for food safety,1,1
-43,medicine,1,1
-44,social communication,2,1
-45,planning for food safety,1,1
-46,medicine,1,1
-47,refusing,2,2
-48,social communication,2,2
-49,medicine,1,1
-50,planning for food safety,1,1
-51,medicine,1,1
-52,medicine,1,1
-53,planning for food safety,1,1
-54,refusing,1,2
-55,social communication,2,2
-56,planning for food safety,1,1
-57,planning for food safety,1,1
-58,medicine,1,1
-59,social communication,2,2
-60,planning for food safety,1,1
-61,medicine,1,1
-62,planning for food safety,1,1
-63,social communication,3,1
-64,refusing,3,1
-65,social communication,1,1
-66,refusing,3,1
-67,planning for food safety,1,1
-68,planning for food safety,3,3
-69,social communication,3,3
-70,social communication,3,2
-71,medicine,1,1
-72,planning for food safety,1,1
-73,refusing,1,1
-74,social communication,2,2
-75,social communication,3,2
-76,medicine,1,1
-77,medicine,1,1
-78,planning for food safety,1,1
-79,social communication,2,1
-80,refusing,1,1
-81,social communication,2,1
-82,medicine,1,1
-83,planning for food safety,1,1
-84,medicine,1,1
-85,planning for food safety,1,1
+1,checking,3
+2,refusing,4
+3,social communication,2
+4,refusing,4
+5,social communication,3
+6,medicine,3
+7,planning for food safety,3
+8,medicine,2
+9,planning for food safety,1
+10,medicine,1
+11,planning for food safety,1
+12,refusing,3
+13,social communication,4
+14,medicine,1
+15,planning for food safety,1
+16,checking,4
+17,reaction,4
+18,planning for food safety,1
+19,medicine,1
+20,social communication,4
+21,medicine,1
+22,medicine,1
+23,planning for food safety,1
+24,refusing,3
+25,medicine,1
+26,planning for food safety,1
+27,refusing,3
+28,social communication,2
+29,medicine,1
+30,planning for food safety,1
+31,planning for food safety,1
+32,medicine,1
+33,planning for food safety,1
+34,medicine,1
+35,checking,4
+36,checking,4
+37,reaction,4
+38,medicine,1
+39,planning for food safety,1
+40,refusing,2
+41,social communication,1
+42,planning for food safety,1
+43,medicine,1
+44,social communication,1
+45,planning for food safety,1
+46,medicine,1
+47,refusing,2
+48,social communication,2
+49,medicine,1
+50,planning for food safety,1
+51,medicine,1
+52,medicine,1
+53,planning for food safety,1
+54,refusing,2
+55,social communication,2
+56,planning for food safety,1
+57,planning for food safety,1
+58,medicine,1
+59,social communication,2
+60,planning for food safety,1
+61,medicine,1
+62,planning for food safety,1
+63,social communication,1
+64,refusing,1
+65,social communication,1
+66,refusing,1
+67,planning for food safety,1
+68,planning for food safety,3
+69,social communication,3
+70,social communication,2
+71,medicine,1
+72,planning for food safety,1
+73,refusing,1
+74,social communication,2
+75,social communication,2
+76,medicine,1
+77,medicine,1
+78,planning for food safety,1
+79,social communication,1
+80,refusing,1
+81,social communication,1
+82,medicine,1
+83,planning for food safety,1
+84,medicine,1
+85,planning for food safety,1
+86,medicine,1
+87,medicine,1
+88,medicine,1
+89,medicine,1
+90,medicine,1
+91,medicine,1
+92,medicine,1
+93,medicine,1
+94,medicine,1
+95,medicine,1
+96,medicine,1
+97,medicine,1
+98,medicine,1
+99,medicine,1
+100,medicine,1

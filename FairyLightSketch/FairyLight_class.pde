@@ -1,47 +1,49 @@
-float radius;
-float changeRadius;
+float changeSaturation;
+
 
 class Light {
   int dataObservation;
   String what;
-  int effortScale;
   int worryScale;
   PVector coords = new PVector(0,0);
   color lightColour;
   
   //constructor
-  Light (int dataNum , String Cat, int eff, int worr){
+  Light (int dataNum , String Cat, int worr){
     dataObservation = dataNum;
     what = Cat;
-    effortScale = eff;
     worryScale = worr;
+
+    changeSaturation = map(worryScale, 1, 5, 200, 255);
     
-    radius = map(effortScale, 1, 5, 10, 20);
-    changeRadius = map(worryScale, 1, 5, 5, 20);
-    
-    
+
     if (what.equals("refusing")){
-      lightColour = color(255,247,3,64);
+      lightColour = color(255,247,3);
     }else if (what.equals("planning for food safety")){
-      lightColour = color(250,3,217,64);
+      lightColour = color(250,3,217);
     }else if(what.equals("medicine")){
-      lightColour = color(5,228,255,64);
+      lightColour = color(5,228,255);
     }else if(what.equals("social communication")){
-      lightColour = color(255,255,255,64);
+      lightColour = color(255,255,255);
     }else if(what.equals("checking")){
-      lightColour = color(252,127,0,64);
+      lightColour = color(252,127,0);
     }else if(what.equals("reaction")){
-      lightColour = color(255, 60, 0,64);
+      lightColour = color(255, 60, 0);
     }
   }
       
   void draw(){
     stroke(0);
     strokeWeight(0.5);
-    fill(lightColour);
+    float randomSat = random(-changeSaturation, changeSaturation);
+    fill(lightColour,randomSat);
+    ellipse(coords.x, coords.y, 15, 20);
+      
+    fill(255,255,255,randomSat);
+    ellipse(coords.x-3, coords.y-1,2,5);
     
-    float randomJitter = random(-changeRadius, changeRadius);
-    circle(coords.x, coords.y, radius + randomJitter);
+    fill(116,116,124);
+    rect(coords.x-2, coords.y - 20, 5,10);
   }
 }
     
