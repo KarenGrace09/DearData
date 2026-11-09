@@ -4,6 +4,7 @@ int xCoord;
 int yCoord;
 int count;
 String [] dataFileRows;
+boolean showKey=false;
 
 void setup() {
   fill(0, 0, 0);
@@ -50,7 +51,17 @@ void draw() {
   line(0,578,600,578);
   for (Light l : lights) {
     l.draw();
+      
   }
+  if (showKey){
+    drawKey();
+    float saturation = random(-200,200);
+    stroke(255);
+    strokeWeight(1);
+    fill(198,240,15,saturation);
+    ellipse(50, 150, 15, 20);
+  }
+  
 }
 int xCoordinate(int count){
   xCoord = (count *50) + 70;
@@ -63,6 +74,47 @@ int yCoordinate(int count){
     yCoord += 60;
   }
   return yCoord;
+}
+
+void keyPressed(){
+  if(key == 'k'){
+    showKey = true;
+   
+  }else if(key == ' '){
+    showKey = false;
+  }
+}
+
+void drawKey(){
+  fill(0);
+  stroke(255);
+  rect(20,0,300,180);
+  // blocks
+  fill(255,247,3);
+  rect(40, 20, 30,10);
+  fill(250,3,217);
+  rect(40, 40, 30,10);
+  fill(5,228,255);
+  rect(40, 60, 30,10);
+  fill(255,255,255);
+  rect(40,80,30,10);
+  fill(252,127,0);
+  rect(40,100,30,10);
+  fill(255, 60, 0);
+  rect(40,120,30,10);
+
+  //text
+  fill(255);
+  textSize(15);
+  text("= refusing food", 80, 30);
+  text("= planning for food safety", 80,50);
+  text("= medicine", 80, 70);
+  text("= social communication", 80, 90);
+  text("= monitoring", 80,110);
+  text("= reaction",80, 130);
+  text("brightness of flashing",65,155);
+  text("= level of anxiety", 205, 155);
+  
 }
     
     
