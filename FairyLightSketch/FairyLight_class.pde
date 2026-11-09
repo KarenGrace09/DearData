@@ -1,4 +1,6 @@
 float changeSaturation;
+float randomSat;
+int worryValue;
 
 
 class Light {
@@ -13,8 +15,18 @@ class Light {
     dataObservation = dataNum;
     what = Cat;
     worryScale = worr;
-
-    changeSaturation = map(worryScale, 1, 5, 200, 255);
+    
+    if (worryScale == 1){
+      changeSaturation = 255;
+    }else if (worryScale == 2){
+      changeSaturation = 225;
+    }else if (worryScale == 3){
+      changeSaturation = 200;
+    }else if (worryScale == 4){
+      changeSaturation = 150;
+    }else if (worryScale ==5){
+      changeSaturation = 100;
+    }
     
 
     if (what.equals("refusing")){
@@ -35,7 +47,9 @@ class Light {
   void draw(){
     stroke(0);
     strokeWeight(0.5);
-    float randomSat = random(-changeSaturation, changeSaturation);
+
+    randomSat = random(-changeSaturation, changeSaturation);
+      
     fill(lightColour,randomSat);
     ellipse(coords.x, coords.y, 15, 20);
       

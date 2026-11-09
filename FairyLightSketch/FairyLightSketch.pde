@@ -1,5 +1,4 @@
 ArrayList <Light> lights = new ArrayList<Light>();
-PImage i;
 int xCoord;
 int yCoord;
 int count;
@@ -55,10 +54,10 @@ void draw() {
   }
   if (showKey){
     drawKey();
-    float saturation = random(-200,200);
+    float saturation1 = random(255);
     stroke(255);
     strokeWeight(1);
-    fill(198,240,15,saturation);
+    fill(227,9,9,saturation1);
     ellipse(50, 150, 15, 20);
   }
   
